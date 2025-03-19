@@ -46,7 +46,8 @@ rag_template = ChatPromptTemplate.from_messages(
             "system",
             """You are an AI assistant for question-answering tasks."""
             """ Answer to the best of your ability using the context provided."""
-            """ Leverage the Tools you are provided to answer questions.""",
+            """ Leverage the Tools you are provided to answer questions."""
+            """You can use tools for various tasks. if you have to do calculation, you should use the math tool.""",
         ),
         MessagesPlaceholder(variable_name="messages"),
     ]
