@@ -24,16 +24,21 @@ aicademic/
 ## How to test
 
 Start by cloning the repo into cloud shell.
+
 Install the requirements.
+
 cd into the cloned directory.
+
 run: 
 ```bash
 make install
 ```
+
 then run:
 ```bash
 make playground
 ```
+
 open the link in a new tab.
 
 ## Requirements
